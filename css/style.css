@@ -31,7 +31,7 @@ body {
 
 .footer {
     /* Positioning */
-    position: absolute;
+    position: fixed;
     bottom: 0;
   
     /* Box-model */
@@ -45,22 +45,7 @@ body {
     
   }
   
-  .text-muted-footer {
-    /* Box-model */
-    margin-top: 15px;
   
-    /* Typography */
-    color: #fff;
-  }
-  
-  .two-toned-footer-color {
-    /* Box-model */
-    height: 3px;
-    padding-top: 3px;
-  
-    /* Visual */
-    background-color: #384E73
-  }
 
   h2 {
       font-size: 30px;
