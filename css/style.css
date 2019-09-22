@@ -78,7 +78,7 @@ body {
       text-align: center;
   }
 
-  img:hover {
+  .portImg:hover {
       opacity: .5;
   }
 
