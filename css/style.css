@@ -15,7 +15,7 @@ body {
     background: #384E73;
     color: #ffffff;
     font-family: "Times New Roman", Times, serif;
-    font-size: 25px;
+    font-size: 23px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 10px;
     border-radius: 10px;
@@ -74,6 +74,29 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
+  .links:hover {
+      text-decoration: none;
+      color: #88A0B4
+  }
+
+  .git {
+      font-size: 15px;
+      margin-top: -20px;
+  }
+
+  a {
+      color: white;
+  }
+
+  a:hover {
+      text-decoration: none;
+      color:#000C3F;
+  }
+
+  .project {
+      font-size: 25px;
+  }
+
   .portfolio {
       text-align: center;
   }
@@ -81,6 +104,18 @@ body {
   .portImg:hover {
       opacity: .5;
   }
+
+  .extLinks,
+  .contact {
+      text-align: center;   
+  }
+
+  @media only screen and (max-width: 768px) {
+    h3 {
+      
+    }
+}
+  
 
 
  
